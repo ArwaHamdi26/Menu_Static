@@ -122,6 +122,22 @@ void arrowkey(int line) {
               drawMenu(menu, 3, line);
             }
             break;
+
+          case 'H':
+            if (line != 0) {
+              line = 0;
+              clear();
+              drawMenu(menu, 3, line);
+            }
+            break;
+
+          case 'F':
+            if (line != 2) {
+              line = 2;
+              clear();
+              drawMenu(menu, 3, line);
+            }
+            break;
         }
       }
     }
